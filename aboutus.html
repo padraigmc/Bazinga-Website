@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About us</title>
+
+    <style>
+
+        body {
+            background-image: url("images/background.jpg");
+        }
+
+        h1 {
+            text-align: center;
+
+        }
+
+        .maintext {
+
+            font-size: 12px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+        }
+      
+
+
+        .logotext {
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        * {
+            box-sizing: border-box;
+           }
+
+
+
+        .column {
+            float: left;
+            width: 100%;
+            padding: 10px;
+            height: 600px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #ff3f00;
+            opacity: 0.8;
+        }
+        
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        #date {
+
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+
+
+
+        }
+
+        body {
+          margin: 0;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .navbar {
+          overflow: hidden;
+          background-color: #333;
+          position: fixed;
+          bottom: 0;
+          width: 100%;
+        }
+
+        .navbar a {
+          float: right;
+          display: block;
+          color: #f2f2f2;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 17px;
+        }
+
+        .navbar a:hover {
+          background: #ff3f00;
+          color: white;
+        }
+
+        .navbar a.active {
+          background-color: #ff3f00;
+          color: white;
+        }
+
+        .main {
+          padding: 16px;
+          margin-bottom: 30px;
+        }
+
+
+        .columnsmall {
+            float: left;
+            width: 33.33%;
+            padding: 20px;
+            height: 450px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            font-size: 20px;
+            
+        }
+        
+        .rowsmall:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .button {
+          background-color: #ff3f00;
+          border: none;
+          color: white;
+          padding: 7px 16px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 4px 2px;
+          cursor: pointer;
+        }
+
+        .button:hover {
+          background: #4CAF50;
+          color: white;
+        }
+
+
+
+        .columntext {
+            float: left;
+            width: 90%;
+            height: 150px;
+            padding: 12px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            font-size: 20px;
+            
+        }
+        
+        .rowstext:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+     
+        
+    </style>
+
+</head>
+
+<body>
+
+    <div class="maintext">
+        <p id="date"></p>
+        <a href="index.php">
+            <h1>
+                <img src="images/logo.png" alt="logo" height="200" width="850">
+            </h1>
+        </a>
+    </div>
+
+
+    <div class="row">
+        <div class="column" style="background-color:white;">
+            <h2>The Team</h2>
+            <p><font color="black">Allow us to introduce ourselves</font></p>
+
+
+
+            <div class="columnsmall" style="background-color:lightslategray;">
+                <img src="images/connorface.png" alt="logo" height="200" width="200">
+                </br>
+                <img src="images/connor.png" alt="logo" height="75" width="125">
+
+                <div class="columntext" style="background-color:darkgrey;">
+
+                    <p>
+                        Connor's bio goes here!
+                        </br>
+                        Lorem ipsum
+                        </br>
+                        Lorem ipsum
+                    </p>
+
+                </div>
+
+
+
+
+            </div>
+
+                <div class="columnsmall" style="background-color:darkgrey;">
+                    <img src="images/ashface.png" alt="logo" height="200" width="200">
+
+                    </br>
+
+                    <img src="images/ash.png" alt="logo" height="75" width="125">
+
+                    <div class="columntext" style="background-color:lightslategray;">
+
+                        <p>
+                            Ash was responsible for bringing the front-end
+                            </br>
+                            of this project together.
+                            </br>
+                            He is a chronic video game addict and sleeper.
+                        </p>
+                    </div>
+
+
+
+                </div>
+
+                <div class="columnsmall" style="background-color:lightslategray;">
+                    <img src="images/padraigface.png" alt="logo" height="200" width="200">
+
+
+
+                    </br>
+                    <img src="images/padraig.png" alt="logo" height="75" width="125">
+
+                    <div class="columntext" style="background-color:darkgrey;">
+
+                        <p>
+                            Padraig was responsible for bringing the back-end
+                            </br>
+                            of this project together.
+                            </br>
+                            He likes rock climbing and drinking coffee.
+                        </p>
+                    </div>
+
+
+
+                </div>
+
+
+
+
+            </div>
+
+        <div class="navbar">
+            <a href="index.php" class="active">Home</a>
+            <a href="#project">About our project</a>
+            <a href="aboutus.html">About us</a>
+        </div>
+
+
+
+
+</body>
+</html>
