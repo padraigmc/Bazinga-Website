@@ -8,6 +8,8 @@
 
         body {
             background-image: url("images/background.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
         }
 
         h1 {
@@ -225,6 +227,7 @@
                         </br>
                         customer data with ease. Full control at your fingertips                      
                     </p>
+                    </br>
                     </br>
 
                     <form action="index.php" method="POST">
