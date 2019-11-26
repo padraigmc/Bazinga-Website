@@ -65,3 +65,4 @@ In the beginning, we used the 'GET' method in the beginning to easily see exactl
 ## Discussion
 
 ## Conclusions
+The admin page allows the user to view, edit and alter a MySQL database using a PHP connection to a HTML&CSS frontend. We believe our implementation perfectly facilitates these tasks in a user friendly way.
