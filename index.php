@@ -2,6 +2,7 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/logo.ico">
     <title>Bazinga Web Hosting</title>
 
     <style>
@@ -180,7 +181,7 @@
         <p id="date"></p>
         <h1>
             <a href="index.php">
-                <img src="images/logo.png" alt="logo" height="200" width="850">
+                <img src="images/logo-banner.png" alt="logo" height="200" width="850">
             </a>
         </h1>
     </div>
