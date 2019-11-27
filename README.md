@@ -56,9 +56,13 @@ CREATE TABLE `orders` (
 Ash's shite here
 
 ## PHP Code
-We used php in this project to interact with the MySQL database, i.e. to view, alter and edit data in the database. PHP was a great tool to facilitate this. Firstly, to connect to the database the 'mysqli()' function was used with variables containing database information. To view data in the database, the 'query()' function was used with a MySQL query function. The resulting table, returned as an array, was split into rows using the 'fetch_assoc()' function and displayed in a html table using a while loop. To alter existing information, the database was queried for the current values and placed in a HTML form where the user can edit any value, other that the primary key. To add a new row in a certain table, a HTML form is used to tak user input and values are stored in variables. The variables are then included in a MySQL 'INSERT' command, and executed using the 'query()' function.
+We used php in this project to interact with the MySQL database, i.e. to view, alter and edit data in the database. PHP was a great tool to facilitate this. Firstly, to connect to the database the 'mysqli()' function was used with variables containing database information. To view data in the database, the 'query()' function was used with a MySQL query function. The resulting table, returned as an array, was split into rows using the 'fetch_assoc()' function and displayed in a html table using a while loop.
 
-In the beginning, we used the 'GET' method in the beginning to easily see exactly which variables were being sent to each page before changing to the POST method to increase security.
+To alter existing information, the database was queried for the current values and placed in a HTML form where the user can edit any value, other that the primary key. To add a new row in a certain table, a HTML form is used to tak user input and values are stored in variables. The variables are then included in a MySQL 'INSERT' command, and executed using the 'query()' function.
+
+To aid the user in interpreting and editing data in the 'orders' table, we opted to generate the table dynamically. For entries like customerID, packageID and serverID we queried the respective table to provide information that a human can easily interpret such as the name of the customer or server or the description of the package. When editing or adding the customer ID for example, the 'customers' table is queried for all customer names and placed in a drop down list in a HTML form. This way, the user cannot enter an invalid customerID and they can easily see the name of the customer instead of seeing the customer's ID. The user also can't alter the value of a table's primary key, and it is assigned automatically when a new row is created.
+
+In the beginning, we used the 'GET' method to easily see which variables were being sent to each page before changing to the POST method to increase security.
 
 ## Results and Encountered Problems
 
