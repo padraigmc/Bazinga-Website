@@ -1,0 +1,165 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+table, th, td {
+    border: 1px solid black;
+    color: black;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+input[type=text] {
+    width: 100%;
+}
+
+.showTable {
+    border: solid 1px #DDEEEE;
+    border-collapse: collapse;
+    border-spacing: 0;
+    color: black;
+    background-color: white;
+    margin: 10px auto;
+}
+.showTable thead th {
+    background-color: lightslategray;
+    border: solid 1px lightslategray;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+.showTable tbody td {
+    border: solid 1px lightslategray;
+    color: #333;
+    padding: 10px;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+.main {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    height: 75%;;
+    text-align: center;
+    color: #ff3f00;
+    opacity: 0.8;
+    margin-bottom: 5%;
+    background-color:white;
+}
+
+.banner {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+.title p {
+    color: black;
+}
+
+.alterForm {
+    background-color: white;
+    padding: 2%;
+    text-align: center;
+    display: block;
+}
+
+.alterForm .title {
+    padding: 0;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  bottom: 0;
+  width: 100%;
+  height: 7%;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    height: 400px;
+    text-align: center;
+    color: white;
+    font-size: 20px;  
+}
+
+.columnImage {
+    min-height: 40%;
+}
+
+.columnText {
+    min-height: 30%;
+    margin: 0 5%;
+}
+
+.columnButton {
+    min-height: 30%;
+}
+
+button:hover {
+    background: #4CAF50;
+    color: white;
+}
+
+button {
+  background-color: #ff3f00;
+  border: none;
+  color: white;
+  padding: 1% 2%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: auto;
+  display: block;
+  cursor: pointer;
+  width: auto;
+}
+
+#editButton {
+    width: 100%;
+    padding: 5px;
+}
+
+.navbar a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 0.5% 1%;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar a:hover {
+    background: #ff3f00;
+    color: white;
+  }
+  
+  .navbar a.active {
+    background-color: #ff3f00;
+    color: white;
+  }
