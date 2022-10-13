@@ -53,7 +53,7 @@ CREATE TABLE `orders` (
 ```
 
 ## Web Site Design and Development
-Ash's shite here
+Ash's stuff here
 
 ## PHP Code
 We used php in this project to interact with the MySQL database, i.e. to view, alter and edit data in the database. PHP was a great tool to facilitate this. Firstly, to connect to the database the 'mysqli()' function was used with variables containing database information. To view data in the database, the 'query()' function was used with a MySQL query function. The resulting table, returned as an array, was split into rows using the 'fetch_assoc()' function and displayed in a html table using a while loop.
